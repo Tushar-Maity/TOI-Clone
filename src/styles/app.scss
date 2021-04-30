@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Montserrat',Verdana,arial,sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.double-dot-line {
+    height: 3px;
+    display: block;
+    border-top: 1px dotted #1a1a1a;
+    border-bottom: 1px dotted #1a1a1a;
+    margin: 40px 0;
+    width: 100%;
+}
+
+@import './header';
+@import './headermenu';
+@import './livenews';
+@import './entertainment';
+@import './footer';

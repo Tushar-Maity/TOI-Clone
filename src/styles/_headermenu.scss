@@ -1,0 +1,72 @@
+// Header Menu
+.headerMenu {
+    border-bottom: 2px solid #000;
+    border-top: 1px solid #ebebeb;
+    background-color: #fff;
+
+    &.headerMenuSticky {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+}
+
+.headerMenu__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerMenu__category {
+    display: flex;
+    align-items: center;
+    height: 43px;
+
+    .headerMenu__logo {
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+        background-size: 534px;
+        background-image: url(https://static.toiimg.com/photo/79602966.cms);
+        background-repeat: no-repeat;
+        background-position: -16px -13px;
+        margin: 4px 6px 0 0;
+        display: inline-block;
+        text-indent: -20000px;
+        position: relative;
+        z-index: 1;
+    }
+
+    p {
+        font-size: 12px;
+        padding: 12px 9px;
+    }
+}
+
+.headerMenu__right {
+    display: flex;
+    align-items: center;
+
+    .headerMenu__icon {
+        margin-left: 5px;
+    }
+}
+
+.toi-plus {
+    position: relative;
+
+    .toi-plus-link {
+        background-image: url(https://static.toiimg.com/photo/69822060.cms);
+        background-repeat: no-repeat;
+        background-position: -5px -123px;
+        font-size: 0;
+        position: absolute;
+        top: -10px;
+        right: 3px;
+        width: 45px;
+        height: 20px;
+        background-size: 58px;
+        cursor: pointer;
+        z-index: 1;
+    }
+}
