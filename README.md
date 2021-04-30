@@ -1,9 +1,3 @@
-# Times of India Clone React App
-
-## Available Deploy on Netlify
-
-The Project can be viewd at [Netlify](https://toi-clone.netlify.app/)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
