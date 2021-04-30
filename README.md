@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Check out my Project live on your Device
 
-Go to [The Times Of India - Clone](https://toi-clone466.netlify.app/)
+Go to [The Times Of India - Clone](https://toi-clone789.netlify.app/)
 
 ## Available Scripts
 
