@@ -18,7 +18,6 @@ const App = () => {
             setStickMenu(false)
         }
     }
-
     useEffect(() => {
         window.addEventListener('scroll', transitionNavBar)
 
