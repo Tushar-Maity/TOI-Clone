@@ -193,7 +193,7 @@ const Footer = () => {
 
                 <div className="footer__copy">
                     <p>
-                        Copyright &copy; {year} Bennett, Coleman &amp; Co. Ltd. This is a Clone Version.
+                        Copyright &copy; {year} Made with ❤ by Tushar Maity &amp; Co. Ltd. This is a Clone Version.
                     </p>
                 </div>
             </Container>
